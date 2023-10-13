@@ -1,7 +1,3 @@
-
-print("Hello world")
-print("HELLOO WORLD")
-
 # Sample list of candidates with their Z-Scores
 candidates = [
     {"name": "Candidate 1", "z_score": 1.5},
@@ -21,4 +17,3 @@ selected_candidates = [candidate for candidate in candidates if candidate["z_sco
 print("Selected Candidates for Campus Placement:")
 for candidate in selected_candidates:
     print(f"{candidate['name']} (Z-Score: {candidate['z_score']})")
-
