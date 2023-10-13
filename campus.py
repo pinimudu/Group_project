@@ -1,10 +1,10 @@
 # Sample list of candidates with their Z-Scores
 candidates = [
-    {"name": "Candidate 1", "z_score": 1.5},
-    {"name": "Candidate 2", "z_score": -0.5},
-    {"name": "Candidate 3", "z_score": 2.0},
-    {"name": "Candidate 4", "z_score": -1.2},
-    {"name": "Candidate 5", "z_score": 0.8}
+    {"name": "Sasanga", "z_score": 1.5},
+    {"name": "Buddiya", "z_score": -0.5},
+    {"name": "Maduwa", "z_score": 2.0},
+    {"name": "Kawuaa", "z_score": -1.2},
+    {"name": "Bhagyaa", "z_score": 0.8}
 ]
 
 # Define the Z-Score threshold for campus placement
