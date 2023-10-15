@@ -20,22 +20,22 @@
 
 exam_one = int(input("Input exam grade one: "))
 exam_two = int(input("Input exam grade two: "))
-exam_3 = int(input("Input exam grade three: "))
+exam_three = int(input("Input exam grade three: "))
 
-grades = [exam_one, exam_two, exam_3]
+grades = [exam_one, exam_two, exam_three]
 total = 0
 for grade in grades:
     total += grade
 
 avg = total / len(grades)
 
-if avg >= 90:
+if avg >= 75:
     letter_grade = "A"
-elif 80 <= avg < 90:
+elif 65 <= avg < 75:
     letter_grade = "B"
-elif 70 <= avg < 80:
+elif 55 <= avg < 65:
     letter_grade = "C"
-elif 60 <= avg < 70:
+elif 35 <= avg < 55:
     letter_grade = "D"
 else:
     letter_grade = "F"
@@ -45,6 +45,6 @@ print("Average: " + str(avg))
 print("Grade: " + letter_grade)
 
 if letter_grade == "F":
-    print("Student is failing.")
+    print("Student is failing. Study harder")
 else:
-    print("Student is passing.")
+    print("Student is passing. Well Done. Keep up the good work!")
